@@ -2,8 +2,6 @@
 
 namespace v3project\hiccup;
 
-use yii\helpers\Html;
-
 class Hiccup {
 
     public static function hiccup($hiccup) {
@@ -53,10 +51,10 @@ class Hiccup {
                 $ret = implode('', $content);
             }
 
-            $ret = Html::tag($tag_name, $ret, $hoptions);
+            $ret = \yii\helpers\Html::tag($tag_name, $ret, $hoptions);
         }
 
         return strval($ret);
     }
-    
+
 }
