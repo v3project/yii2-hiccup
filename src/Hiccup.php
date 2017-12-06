@@ -56,5 +56,6 @@ class Hiccup {
             $ret = Html::tag($tag_name, $ret, $hoptions);
         }
         return strval($ret);
+
     }
 }
