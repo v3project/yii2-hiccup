@@ -1,0 +1,22 @@
+{
+    "name": "v3project/yii2-hiccup",
+    "version": "1.0.0",
+    "description": "V3Project Yii2 Hiccup",
+    "keywords": ["v3project", "yii2", "hiccup"],
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Kirill Znamenskiy",
+            "email": "k.znamenskiy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "v3project\\hiccup\\": "src/"
+        }
+    }
+}

@@ -1,1 +1,1 @@
-# yii2-hiccup
+# V3Project Yii2 Hiccup
