@@ -1,6 +1,6 @@
 {
     "name": "v3project/yii2-hiccup",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "V3Project Yii2 Hiccup",
     "keywords": ["v3project", "yii2", "hiccup"],
     "type": "yii2-extension",
